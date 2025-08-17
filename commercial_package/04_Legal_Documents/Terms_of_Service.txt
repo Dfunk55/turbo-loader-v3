@@ -1,0 +1,56 @@
+TERMS OF SERVICE
+Turbo Loader v3 - Professional Dungeondraft Plugin
+
+Effective Date: August 16, 2025
+
+1. ACCEPTANCE OF TERMS
+By purchasing and using Turbo Loader v3, you agree to these Terms of Service.
+
+2. PRODUCT DESCRIPTION
+Turbo Loader v3 is a performance optimization plugin for Dungeondraft software that enhances asset loading and memory management.
+
+3. PURCHASE AND PAYMENT
+- One-time purchase provides lifetime license
+- Payment processed through secure third-party platforms
+- All sales are final after 30-day refund period
+
+4. INSTALLATION AND USE
+- Software is provided with automated installer
+- User responsible for proper installation on compatible systems
+- Technical support provided via email
+
+5. SYSTEM REQUIREMENTS
+- Dungeondraft 1.0 or later
+- Windows 10+, macOS 10.14+, or Linux (Ubuntu 20+)
+- 50MB free disk space
+- Administrative privileges for installation
+
+6. UPDATES AND MAINTENANCE
+- Free lifetime updates included with purchase
+- Updates distributed through original download channel
+- No guarantee of specific update frequency
+
+7. SUPPORT POLICY
+- Email support provided for technical issues
+- Support limited to installation and basic usage
+- 48-hour response time target (business days)
+
+8. REFUND POLICY
+- 30-day money-back guarantee
+- Refunds processed to original payment method
+- Must contact support with refund request
+
+9. PRIVACY POLICY
+- No personal data collected by the plugin
+- Installation creates local configuration files only
+- No analytics or tracking implemented
+
+10. LIMITATION OF LIABILITY
+TTRPG Suite is not liable for any damages arising from use of this software, including but not limited to data loss, system damage, or business interruption.
+
+11. MODIFICATIONS
+These terms may be updated. Users will be notified of material changes.
+
+Contact Information:
+Email: support@ttrpgsuite.com
+Website: [WEBSITE_URL]

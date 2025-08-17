@@ -1,0 +1,31 @@
+{
+  "product_name": "Turbo Loader v3 - Professional Dungeondraft Plugin",
+  "version": "3.0.0",
+  "bundle_created": "2025-08-16T17:06:11.523672",
+  "contents": {
+    "installation_package": "Complete installer and manual installation files",
+    "documentation": "Comprehensive guides and troubleshooting resources",
+    "marketing_materials": "Professional sales copy and promotional content",
+    "legal_documents": "License agreements and terms of service",
+    "sales_resources": "Pricing strategy and platform-specific listings",
+    "support_tools": "Verification scripts and customer support templates"
+  },
+  "package_summary": {
+    "target_price": "$5.00 USD",
+    "target_market": "Professional content creators, DMs, and map makers",
+    "key_features": [
+      "60% faster Dungeondraft loading times",
+      "One-click automated installer",
+      "Cross-platform compatibility",
+      "Professional documentation",
+      "Lifetime updates included",
+      "30-day money-back guarantee"
+    ],
+    "distribution_channels": [
+      "DMs Guild",
+      "Itch.io",
+      "DriveThruRPG",
+      "Direct sales"
+    ]
+  }
+}

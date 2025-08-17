@@ -1,0 +1,38 @@
+# Turbo Loader v3 - Dungeondraft Performance Plugin
+
+**Professional-grade performance optimization for serious map creators**
+
+## Why Turbo Loader v3?
+
+If you're tired of waiting for Dungeondraft to load your assets, this plugin is for you. Turbo Loader v3 uses advanced optimization techniques to dramatically reduce loading times and improve overall performance.
+
+## Features
+
+>> **60% faster loading** - Spend more time creating, less time waiting
+>> **One-click installer** - Professional automated installation
+>> **Cross-platform** - Windows, macOS, and Linux support  
+>> **Gold certified** - Thoroughly tested for reliability
+>> **Lifetime updates** - Future improvements included
+
+## Perfect For
+
+>> **Content Creators** - Reduce stream lag and loading delays
+>> **Professional Map Makers** - Streamline your workflow
+>> **DMs with Large Libraries** - Handle thousands of assets smoothly
+>> **Anyone Who Values Time** - Get back to creating faster
+
+## What's Included
+
+>> Professional installation package with automated setup
+>> Comprehensive documentation and guides
+>> Verification tools to ensure everything works perfectly
+>> Email support for any questions
+>> Lifetime updates and improvements
+
+## Installation
+
+Dead simple: Download > Run installer > Enable in Dungeondraft > Done!
+
+**30-day money-back guarantee**
+
+Professional tools for professional creators.

@@ -1,0 +1,1 @@
+#!/bin/bash\npython3 TurboLoaderV3_Installer.py

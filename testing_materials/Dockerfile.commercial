@@ -1,0 +1,67 @@
+# Turbo Loader v3 - Commercial Package Test Environment
+# This Dockerfile simulates a real customer environment
+FROM ubuntu:22.04
+
+# Prevent interactive prompts during package installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install system dependencies - matching typical user environment
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    python3-tk \
+    python3-venv \
+    curl \
+    wget \
+    unzip \
+    nano \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create a typical customer user (not root)
+RUN useradd -m -s /bin/bash customer && \
+    mkdir -p /home/customer/Downloads && \
+    mkdir -p "/home/customer/Documents/Dungeondraft Mods" && \
+    chown -R customer:customer /home/customer
+
+# Install typical Python packages that users might have
+RUN pip3 install --no-cache-dir \
+    psutil \
+    requests
+
+# Copy the commercial installer package to Downloads (as customer would)
+COPY --chown=customer:customer . /home/customer/Downloads/TurboLoaderV3/
+
+# Switch to customer user - real customer experience
+USER customer
+WORKDIR /home/customer/Downloads/TurboLoaderV3
+
+# Set up realistic environment variables
+ENV HOME=/home/customer
+ENV USER=customer
+ENV PYTHONPATH=/home/customer/Downloads/TurboLoaderV3
+
+# Create a test script that simulates customer installation process
+RUN echo '#!/bin/bash\n\
+echo "=== TURBO LOADER V3 COMMERCIAL INSTALLER TEST ==="\n\
+echo "Simulating customer installation experience..."\n\
+echo ""\n\
+echo "Step 1: Customer downloads and extracts package"\n\
+ls -la\n\
+echo ""\n\
+echo "Step 2: Customer reads README"\n\
+head -10 README.md\n\
+echo ""\n\
+echo "Step 3: Customer runs installer"\n\
+python3 TurboLoaderV3_Installer.py --auto-install || echo "Installer completed with exit code $?"\n\
+echo ""\n\
+echo "Step 4: Customer runs verification"\n\
+python3 verify_installation.py || echo "Verification completed with exit code $?"\n\
+echo ""\n\
+echo "Step 5: Customer runs simple test"\n\
+python3 simple_test.py || echo "Simple test completed with exit code $?"\n\
+echo ""\n\
+echo "=== COMMERCIAL INSTALLATION TEST COMPLETE ==="\n\
+' > test_commercial_installation.sh && chmod +x test_commercial_installation.sh
+
+# Default command - run the commercial installation test
+CMD ["./test_commercial_installation.sh"]

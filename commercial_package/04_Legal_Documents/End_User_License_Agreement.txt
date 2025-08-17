@@ -1,0 +1,47 @@
+END USER LICENSE AGREEMENT
+Turbo Loader v3 - Professional Dungeondraft Plugin
+
+Last Updated: August 16, 2025
+
+1. LICENSE GRANT
+Subject to your compliance with this Agreement, TTRPG Suite grants you a non-exclusive, non-transferable license to use Turbo Loader v3 ("Software") for personal and commercial map creation purposes.
+
+2. PERMITTED USES
+- Install and use on unlimited personal devices
+- Use for commercial map creation and content creation
+- Use in live streams, videos, and content production
+- Create and sell maps made with assistance of this plugin
+
+3. RESTRICTIONS
+- No redistribution of the plugin files
+- No reverse engineering or decompilation
+- No creation of derivative plugins based on this code
+- No sharing of license with unauthorized users
+
+4. OWNERSHIP
+TTRPG Suite retains all intellectual property rights in the Software. This license does not grant you ownership of the Software.
+
+5. UPDATES
+This license includes all future updates and improvements to the Software at no additional cost.
+
+6. SUPPORT
+Email support is provided for installation and usage questions. Response time target: 48 hours.
+
+7. WARRANTY DISCLAIMER
+The Software is provided "AS IS" without warranty of any kind. Use at your own risk.
+
+8. LIMITATION OF LIABILITY
+TTRPG Suite's liability is limited to the purchase price of the Software.
+
+9. REFUND POLICY
+30-day money-back guarantee from date of purchase. Contact support for refund requests.
+
+10. TERMINATION
+This license is effective until terminated. You may terminate by destroying all copies. TTRPG Suite may terminate for license violations.
+
+11. GOVERNING LAW
+This Agreement is governed by applicable international software licensing laws.
+
+By downloading and using this Software, you agree to be bound by these terms.
+
+Contact: support@ttrpgsuite.com

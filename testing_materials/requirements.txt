@@ -1,0 +1,1 @@
+tkinter\npsutil>=5.8.0\nrequests>=2.25.0\n

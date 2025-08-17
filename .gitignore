@@ -1,0 +1,63 @@
+# Turbo Loader v3 - Git Ignore
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing artifacts
+test_results/
+coverage/
+
+# Environment variables (keep sensitive data out)
+.env
+*.env
+
+# Build artifacts
+build/
+*.exe
+*.dmg
+*.pkg
+
+# Package temp files
+temp/
+tmp/
+
+# User-specific files
+config_local.json
+user_settings.json
+
+# Development only files
+dev_notes.txt
+scratch.py
+test_*.py
+debug_*
+
+# Distribution temp
+dist_temp/
+package_temp/

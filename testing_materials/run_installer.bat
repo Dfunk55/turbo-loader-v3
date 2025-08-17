@@ -1,0 +1,1 @@
+@echo off\npython TurboLoaderV3_Installer.py\npause
